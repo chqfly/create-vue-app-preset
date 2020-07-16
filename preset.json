@@ -1,16 +1,17 @@
 {
   "useConfigFiles": true,
   "cssPreprocessor": "sass",
+  "router": true,
+  "routerHistoryMode": true,
+  "vuex": true,
   "plugins": {
     "@vue/cli-plugin-babel": {},
     "@vue/cli-plugin-eslint": {
       "config": "prettier",
       "lintOn": ["save", "commit"]
     },
-    "@vue/cli-plugin-router": {},
-    "@vue/cli-plugin-vuex": {},
     "vue-cli-plugin-base-template": {
-      "version": "^1.1.0"
+      "version": "^1.1.3"
     }
   }
 }
