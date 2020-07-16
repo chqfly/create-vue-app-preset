@@ -4,9 +4,13 @@
   "plugins": {
     "@vue/cli-plugin-babel": {},
     "@vue/cli-plugin-eslint": {
-      "config": "airbnb",
+      "config": "prettier",
       "lintOn": ["save", "commit"]
     },
-    "vue-cli-plugin-base-template": {}
+    "@vue/cli-plugin-router": {},
+    "@vue/cli-plugin-vuex": {},
+    "vue-cli-plugin-base-template": {
+      "version": "^1.1.0"
+    }
   }
 }
